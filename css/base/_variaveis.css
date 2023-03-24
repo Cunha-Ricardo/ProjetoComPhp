@@ -1,0 +1,34 @@
+:root{
+    --amarelo: #d4e63b;
+    --amareloclaro: #dbe0aa;
+    --laranja: #FFCF5C;
+    --azulescuro: #1a3be2 ; 
+    --azul:#cae5ff;
+    --azulclaro:#9cd2f7;
+    --amarelo-transparente: #FFCB473D;
+    --branco: #ffffff;
+    --brancoformulario: #8180782a;
+    --cinza: #909090;
+    --preto:#202020;
+    --preto-transparente: #0000000F;
+    --branco-transparente: #ffffffab;
+    --verde:#76d3a7;
+    --botao:#3f82e7;
+    --botaohouver:#5f7aa1;
+
+
+    --familia-corpo: 'Montserrat', sans-serif;
+    --familia-titulo-destaque:'Martel', Montserrat;
+
+
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+    --peso-destaque:700;
+
+
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
+    --tamanho-destaque:1.375rem;
+    
+}

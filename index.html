@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo web</title>
+    <link rel="icon" href="img/logo_size.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? family= Elsie+Swash+Caps:wght@400;900 & family= Elsie:wght@400;900 & family= Josefin+Sans:wght@400;700 & family= Martel: wght@400;700;800 & family= Montserrat+Alternates:wght@100;400 & family= Montserrat:wght@400;700 & family= Poppins:wght@300;400;500;700 & family= Raleway:ital, wght@0.500;1.500 &família= Tangerina: wght@700& display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="css/componentes/input.css">
+    <link rel="stylesheet" href="css/componentes/botoes.css">
+    <link rel="stylesheet" href="css/base/chamada.css">
+    <link rel="stylesheet" href="css/componentes/cartao.css">
+    <link rel="stylesheet" href="css/componentes/item.css">
+    <link rel="stylesheet" href="css/base/como-conseguir.css">
+    <link rel="stylesheet" href="css/componentes/produtoeformulario.css">
+    <link rel="stylesheet" href="css/base/ofertas.css">
+    <link rel="stylesheet" href="css/componentes/rodape.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navigation-bar">
+            <div class="company-col">
+                <a href="#">
+                    <img src="img/logo_size.jpg" alt="Logo" class="cabecalho__logo">
+                </a>
+            </div>
+            <div class="link-col">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Pedido">Pedido</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#como">Como Funciona</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#fale-conosco">Fale Conosco</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#rodape">Rodape</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="chamada container" id="sobre">
+            <h2 class="titulo">
+                Os Melhores Produtos <br>
+                <span class="titulo-destaque">São Nossos</span>
+            </h2>
+            <p class="chamada__texto texto">
+                Encontre aqui os melhores produtos do mercado
+                com varias opções de vendas e opção de beneficios
+            </p>
+            <br>
+            <hr>
+            <p>
+            <fieldset>Cadastre seu email para receber mais informações</fieldset>
+            </p>
+            <hr>
+            <form action="cadastro_email.php" method="POST" class="chamada__formulario">
+                <input type="email" class="input input--icone input--email" id="email" name="email"
+                    placeholder="Insira seu e-mail" aria-label="insira seu e-mail">
+                <button type="submit" id="submit2" name="submit2" class="chamada__botao">Enviar email</button>
+            </form>
+        </section>
+
+
+
+        <section class="ofertas container" id="produtos">
+            <hr>
+            <h2 class="titulo alinhamento--meio">
+                Conheça nossos
+                <span class="titulo-destaque">produtos</span>
+            </h2>
+            <hr>
+            <ul>
+                <li class="produto">
+                    <img src="img/produtosEletronicos/AirPods2Pro.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">AirPods2Pro</h3>
+                        <p class="produto__preco">R$ 1800,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="img/produtosEletronicos/AirPods3.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">AirPods 3ª Geração</h3>
+                        <p class="produto__preco">R$ 2000,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="img/produtosEletronicos/AirpodsMax.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">AirpodsMax</h3>
+                        <p class="produto__preco">R$ 4000,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="img/produtosEletronicos/ipad_azul.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">ipad_azul</h3>
+                        <p class="produto__preco">R$ 5000,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="img/produtosEletronicos/iphone-azul.png" alt="Foto do produto" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">iphone 14 Pro Max</h3>
+                        <p class="produto__preco">R$ 7000,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="formulario container" id="Pedido">
+
+            <h2 class="titulo alinhamento--meio">
+                faça seu pedido</h2>
+
+            <form class="formulario formulario_dentro" action="form_pedido.php" method="POST">
+                <div class="formulario__grupo">
+                    <label for="nome" class="formulario__label">Nome completo</label>
+                    <input type="text" id="nome" name="nome" class="formulario__input"
+                        placeholder="Ricardo Dantas Cunha" required>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="email" class="formulario__label">E-mail</label>
+                    <input type="email" id="email" name="email" class="formulario__input" placeholder="xxxx@hotmail.com"
+                        required>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="telefone" class="formulario__label">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" class="formulario__input"
+                        placeholder="(00) 00000-0000" required>
+                </div>
+                <hr>
+                <div class="formulario__grupo">
+                    <label class="formulario__label">*Coloque somente o cep*</label>
+                    <label class="formulario__label">Cep:
+                        <input name="cep" type="number" id="cep" value="cep" size="10" maxlength="9"
+                            class="formulario__inputcep" placeholder="Ex:00000-000" onblur="pesquisacep(this.value);" />
+                    </label>
+                    <label class="formulario__label">Rua:
+                        <input name="rua" type="text" id="rua" size="35" readonly="readonly"
+                            class="formulario__inputceprbce" />
+                    </label>
+
+                    <label class="formulario__label">Bairro:
+                        <input name="bairro" type="text" id="bairro" size="30" readonly="readonly"
+                            class="formulario__inputceprbce" />
+                    </label>
+
+                    <label class="formulario__label">Cidade:
+                        <input name="cidade" type="text" id="cidade" size="30" readonly="readonly"
+                            class="formulario__inputceprbce" />
+                    </label>
+
+                    <label class="formulario__label">Estado:
+                        <input name="uf" type="text" id="uf" size="2" readonly="readonly"
+                            class="formulario__inputceprbce" /></label>
+                    <hr>
+
+                </div>
+
+
+                <div class="formulario__grupo">
+                    <label for="mensagem" class="formulario__label">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" class="formulario__input formulario__input--textarea"
+                        placeholder="Digite o que deseja" required></textarea>
+                </div>
+                <button type="submit" id="submit1" name="submit1" class="formulario__botao">Enviar mensagem</button>
+
+
+            </form>
+
+        </section>
+
+
+        <section class="como-conseguir container" id="como">
+            <article class="cartao">
+                <h2 class="titulo alinhamento--meio">Como conseguir
+                    <span class="titulo-destaque">meu Produto</span>
+                </h2>
+
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha sues Produtos</p>
+                    </li>
+
+                </ul>
+            </article>
+        </section>
+
+        <section class="formulario container" id="fale-conosco">
+            <h2 class="titulo alinhamento--meio">
+                Fale Conosco
+            </h2>
+            <form class="formulario formulario_dentro" action="form_fale_conosco.php" method="POST">
+                <div class="formulario__grupo">
+                    <label for="nome" class="formulario__label">Nome</label>
+                    <input type="text" id="nome" name="nome" class="formulario__input"
+                        placeholder="Ricardo Dantas Cunha" required>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="email" class="formulario__label">E-mail</label>
+                    <input type="email" id="email" name="email" class="formulario__input" placeholder="xxxx@hotmail.com"
+                        required>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="telefone" class="formulario__label">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" class="formulario__input"
+                        placeholder="(00) 00000-0000" required>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="motivo" class="formulario__label">Motivo</label>
+                    <select id="motivo" name="motivo" class="formulario__select" required>
+                        <option value="" disabled selected>Selecione um motivo</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                    </select>
+                </div>
+                <div class="formulario__grupo">
+                    <label for="mensagem" class="formulario__label">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" class="formulario__input formulario__input--textarea"
+                        required></textarea>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Concorde com os termos e condições
+                    </label>
+                </div>
+                <br>
+                <button type="submit" id="submit" name="submit" class="formulario__botao">Enviar mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer class="container rodape" id="rodape">
+        <img src="img/logo_size.jpg" alt="Logo" class="rodape__logo">
+        <ul class="rodape__social">
+            <li>
+                <a href="#" class="rodape__social-midia" title="Facebook">
+                    <img src="img/facebook.svg" alt="ícone do facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="rodape__social-midia" title="Twitter">
+                    <img src="img/twitter.svg" alt="ícone do Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="rodape__social-midia" title="Instagram">
+                    <img src="img/instagram.svg" alt="ícone do Instagram">
+                </a>
+            </li>
+        </ul>
+        <address class="rodape__unidade texto">
+            <span class="rodape__unidade-titulo">Rio de Janeiro</span>
+            Rua Tonelero, 268, 51 <br>
+            Copacabana <br>
+            Telefone: (21) 99876-3245 <br>
+        </address>
+        <address class="rodape__unidade texto">
+            <span class="rodape__unidade-titulo">São Paulo</span>
+            Av. Eusébio Matoso 17, 13 <br>
+            Pinheiros <br>
+            Telefone: (11) 99876-5432 <br>
+        </address>
+    </footer>
+    <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

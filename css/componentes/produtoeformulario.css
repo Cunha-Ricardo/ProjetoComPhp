@@ -1,0 +1,143 @@
+.produto {
+    margin-bottom: 20px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 60%;
+
+    position: relative;
+    overflow: hidden;
+
+    background-color: var(--branco);
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+    box-sizing: border-box;
+    min-height: 12.5rem;
+}
+
+.produto__imagem {
+    position: absolute;
+    top: 60%;
+    left: 0rem;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 18.75rem;
+
+}
+
+
+.produto__conteudo {
+    position: relative;
+    z-index: 2;
+}
+
+.produto__titulo {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.produto__preco {
+    margin-bottom: 1.5rem;
+}
+
+.produto__comprar {
+    color: var(--amarerlo);
+    display: flex;
+    align-items: center;
+}
+
+.produto__comprar--icone {
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+
+    margin-left: 1.75rem;
+
+    background-image: url(../../img/seta.svg);
+    background-size: contain;
+}
+
+/************************FORMULARIO************************************/
+
+.formulario {
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 20px 20px;
+    background-color: var(--brancoformulario);
+    /*border: solid var(--preto);*/
+    border-radius: 10px;
+    color: var(--preto);
+}
+
+.formulario__grupo {
+    margin-bottom: 10px;
+}
+
+.formulario__label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.formulario h2 {
+    color: var(--preto);
+}
+
+.formulario__input,
+.formulario__select,
+.formulario__textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.formulario__inputcep {
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.formulario__inputceprbce {
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.formulario__select option {
+    color: #333;
+}
+
+.formulario__textarea {
+    resize: vertical;
+}
+
+.formulario__checkbox-label {
+    margin-left: 5px;
+    color: var(--preto);
+}
+
+.formulario__botao {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario__botao[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.formulario__checkbox:checked+.formulario__checkbox-label::after {
+    content: "✓";
+    margin-left: 5px;
+}

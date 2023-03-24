@@ -1,0 +1,72 @@
+.rodape {
+    padding-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: var(--preto);
+    background-image: url(../../img/Vector.svg);
+    background-position: top -180px right;
+    /* DEFINE A POSIÇÃO DA PARTE AMARELA */
+    background-repeat: no-repeat;
+}
+
+.rodape__logo {
+    width: 60px;
+    margin-bottom: 1rem;
+    text-align: left;
+    align-self: flex-start;
+    order: 1;
+}
+
+.rodape__coluna {
+    flex: 1;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.rodape__social {
+    display: flex;
+    margin-top: 80px;
+    flex-direction:row;
+    text-align: left;
+    order: 2;
+}
+
+.rodape__unidade {
+    order: 3;
+  }
+
+.rodape__social-midia img {
+    width: 2rem;
+    height: 2rem;
+    margin: 4px;
+}
+.rodape__social-midia {
+    display: inline-block;
+    width: 1.65rem;
+    height: 1.65rem;
+    margin-right: 1.65rem;
+  }
+
+
+.rodape__unidade-titulo {
+    color: var(--branco);
+    font-size: var(--tamanho-destaque);
+    font-weight: var(--peso-destaque);
+    display: block;
+    margin-bottom: .5rem;
+
+}
+address{
+    margin: 5px;
+    padding-inline-start: 5px;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .rodape__coluna {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}

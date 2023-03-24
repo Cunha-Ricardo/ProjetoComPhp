@@ -1,0 +1,9 @@
+.como-conseguir{
+    margin-bottom: 5px;
+}
+
+@media screen and(min-width:728px){
+    .como-conseguir{
+        margin-bottom: 10px}
+    
+}
